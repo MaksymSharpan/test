@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    background: green;
+}
+
+.box.active {
+    border: 3px solid orange;
+}
+
+.blue {
+    background: blue;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background: lightcoral;
+    color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%);
+    cursor: pointer;
+    border: none;
+}
+
+.result {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+}
